@@ -106,3 +106,19 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
 * ```sh
   terraform apply "main.tfplan"
   ```
+  
+8 - Once resources have been successfully created, you can verify by..
+* Azure portal with Resource visulizer
+<p align="center">
+  <img width="600" height="350" src="https://github.com/simplycmy/gif/blob/main/resourcevisual.PNG">
+</p>
+
+* Entering the load balancer address into web browser
+<p align="center">
+  <img width="600" height="350" src="https://github.com/simplycmy/gif/blob/main/address.PNG">
+</p>
+
+9 - Once you are happy and all works well. You may proceed to delete the resource with terraform destory.
+```sh
+  terraform destroy
+  ```
