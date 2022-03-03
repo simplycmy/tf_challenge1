@@ -106,9 +106,9 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
   <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/change3.PNG">
 </p>
 
-* Add delete_data_disks_on_termination = true. This is to delete the OS disk automatically when VM is deleted. Found by SY.
+* Add delete_data_disks_on_termination = true and delete_os_disk_on_termination = true. This is to delete the OS and DATA disk automatically when VM is deleted. Found by SY.
  <p align="center">
-  <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/changes4.PNG">
+  <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/change4.PNG">
 </p>
 
 7 - Save all the changes made to the files. Ensure you are still inside the challenge folder and run the following command in sequence. 
