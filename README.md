@@ -136,7 +136,7 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
   <img width="600" height="350" src="https://github.com/simplycmy/gif/blob/main/address.PNG">
 </p>
 
-9 - Once you are happy and all works well. You may proceed to delete the resource with terraform destory.
+9 - Once you are happy and all works well. You may proceed to delete the resource with terraform destroy.
 ```sh
   terraform destroy
   ```
