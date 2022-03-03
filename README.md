@@ -1,3 +1,5 @@
+<div id="top"></div>
+
 <!-- ABOUT THE PROJECT -->
 ## The Challenge
 
@@ -8,9 +10,18 @@ This is a Terraform challenge given by my course instructor, Bryan Lim.
 We are tasked to run the tutorial code and make it work by running it in our working O/S (Windows / Ubuntu / Mac). The choice is yours. 
 You may face some problem along the way, but fear not, I have provided the steps by steps guide. 
 
+I have also included the edited file in this git repo. Please use it for reference if you are stuck. Thank you. 
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Problems faced
+
 FYI, I am running the code with Windows 10 system. 
-For people who choose to run in WSL using Ubuntu distro. You are required to change DNS to 1.1.1.1
+For people who like to run in WSL using Ubuntu distro. You are required to change DNS to 1.1.1.1
 Simply edit the <etc/resolv.conf> file and add nameserver 1.1.1.1 (Solution provided by classmate, Brandon V & SY)
+If you dont do that, there will be issue when you use command "terraform apply"
+
+Lastly, you may also need to update your system. Simple run "sudo apt-get update" and "sudo apt-get upgrade" for Ubuntu system. (Solution by Alwin Poon)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -20,6 +31,7 @@ Simply edit the <etc/resolv.conf> file and add nameserver 1.1.1.1 (Solution prov
 To run this terraform challenge in windows, you need to first install a few dependanies in your system.
 
 Note: You need to run Windows powershell in adminstrator mode to install the software with the commands given. 
+
 
 ### Prerequisites
 
@@ -39,7 +51,9 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   $ProgressPreference = 'SilentlyContinue'; Invoke-WebRequest -Uri https://aka.ms/installazurecliwindows -OutFile .\AzureCLI.msi; Start-Process msiexec.exe -Wait -ArgumentList '/I AzureCLI.msi /quiet'; rm .\AzureCLI.msi
   ```
-  
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Verification
 
 After installation, verify that Terraform and Azure CLI by typing 2 separate command into Powershell. 
@@ -122,3 +136,6 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
 ```sh
   terraform destroy
   ```
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
