@@ -17,8 +17,12 @@ I have also included the edited files in this git repo. Please use it for refere
 ## Problems faced
 
 FYI, I am running the code with Windows 10 system. 
-For people who like to run in WSL using Ubuntu distro. You are required to change DNS to 1.1.1.1
+For people who like to run in WSL using Ubuntu distro. 
+
+You are required to change DNS to 1.1.1.1
+
 Simply edit the <etc/resolv.conf> file and add nameserver 1.1.1.1 (Solution provided by classmate, Brandon V & SY)
+
 If you dont do that, there will be issue when you use command "terraform apply"
 
 Lastly, you may also need to update your system. Simple run "sudo apt-get update" and "sudo apt-get upgrade" for Ubuntu system. (Solution by Alwin Poon)
@@ -92,7 +96,7 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
   <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/change1.PNG">
 </p>
 
-* Comment the list of code to prevent creating new resource.
+* Comment the list of code to prevent creating new resource group.
  <p align="center">
   <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/change2.PNG">
 </p>
