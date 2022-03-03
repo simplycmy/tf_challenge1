@@ -92,3 +92,17 @@ After installation, verify that Terraform and Azure CLI by typing 2 separate com
  <p align="center">
   <img width="600" height="200" src="https://github.com/simplycmy/gif/blob/main/changes4.PNG">
 </p>
+
+7 - Save all the changes made to the files. Ensure you are still inside the challenge folder and run the following command in sequence. 
+* ```sh
+  az login -u <username provided from sandbox> -p <password>
+  ```
+* ```sh
+  terraform init
+  ```
+* ```sh
+  terraform plan -out main.tfplan
+  ```
+* ```sh
+  terraform apply "main.tfplan"
+  ```
