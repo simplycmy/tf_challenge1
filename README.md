@@ -39,7 +39,7 @@ Note: You need to run Windows powershell in adminstrator mode to install the sof
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them. Please install them in sequence. 
+Below is the list of commands to install them. Please install them in sequence. 
 * [Chocolatey](https://chocolatey.org/install)
  
   ```sh
