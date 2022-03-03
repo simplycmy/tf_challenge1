@@ -10,7 +10,7 @@ This is a Terraform challenge given by my course instructor, Bryan Lim.
 We are tasked to run the tutorial code and make it work by running it in our working O/S (Windows / Ubuntu / Mac). The choice is yours. 
 You may face some problem along the way, but fear not, I have provided the steps by steps guide. 
 
-I have also included the edited file in this git repo. Please use it for reference if you are stuck. Thank you. 
+I have also included the edited files in this git repo. Please use it for reference if you are stuck. Thank you. 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
